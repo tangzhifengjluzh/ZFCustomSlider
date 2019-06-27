@@ -13,6 +13,7 @@
 		2C0313D722773C410002BCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0313D622773C410002BCE8 /* Assets.xcassets */; };
 		2C0313DA22773C410002BCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0313D822773C410002BCE8 /* LaunchScreen.storyboard */; };
 		2C0313DD22773C410002BCE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0313DC22773C410002BCE8 /* main.m */; };
+		2C72F3D622C5195A00E79233 /* ZFCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F3D422C5195A00E79233 /* ZFCustomSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2C0313D922773C410002BCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C0313DB22773C410002BCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C0313DC22773C410002BCE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C72F3D422C5195A00E79233 /* ZFCustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomSlider.m; sourceTree = "<group>"; };
+		2C72F3D522C5195A00E79233 /* ZFCustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomSlider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		2C0313CC22773C3D0002BCE8 /* ZFCustomSlider */ = {
 			isa = PBXGroup;
 			children = (
+				2C72F3D322C5195A00E79233 /* Custom */,
 				2C0313CD22773C3D0002BCE8 /* AppDelegate.h */,
 				2C0313CE22773C3D0002BCE8 /* AppDelegate.m */,
 				2C0313D022773C3D0002BCE8 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				2C0313DC22773C410002BCE8 /* main.m */,
 			);
 			path = ZFCustomSlider;
+			sourceTree = "<group>";
+		};
+		2C72F3D322C5195A00E79233 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				2C72F3D422C5195A00E79233 /* ZFCustomSlider.m */,
+				2C72F3D522C5195A00E79233 /* ZFCustomSlider.h */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0313D222773C3D0002BCE8 /* ViewController.m in Sources */,
+				2C72F3D622C5195A00E79233 /* ZFCustomSlider.m in Sources */,
 				2C0313DD22773C410002BCE8 /* main.m in Sources */,
 				2C0313CF22773C3D0002BCE8 /* AppDelegate.m in Sources */,
 			);
