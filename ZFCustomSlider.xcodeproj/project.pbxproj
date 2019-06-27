@@ -14,6 +14,7 @@
 		2C0313DA22773C410002BCE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C0313D822773C410002BCE8 /* LaunchScreen.storyboard */; };
 		2C0313DD22773C410002BCE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0313DC22773C410002BCE8 /* main.m */; };
 		2C72F3D622C5195A00E79233 /* ZFCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C72F3D422C5195A00E79233 /* ZFCustomSlider.m */; };
+		2C72F3DC22C51DA500E79233 /* 手机QQ视频_20190627233933.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C72F3DB22C51DA500E79233 /* 手机QQ视频_20190627233933.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2C0313DC22773C410002BCE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C72F3D422C5195A00E79233 /* ZFCustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomSlider.m; sourceTree = "<group>"; };
 		2C72F3D522C5195A00E79233 /* ZFCustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomSlider.h; sourceTree = "<group>"; };
+		2C72F3DB22C51DA500E79233 /* 手机QQ视频_20190627233933.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "手机QQ视频_20190627233933.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		2C0313CC22773C3D0002BCE8 /* ZFCustomSlider */ = {
 			isa = PBXGroup;
 			children = (
+				2C72F3DA22C51D9900E79233 /* gif */,
 				2C72F3D322C5195A00E79233 /* Custom */,
 				2C0313CD22773C3D0002BCE8 /* AppDelegate.h */,
 				2C0313CE22773C3D0002BCE8 /* AppDelegate.m */,
@@ -82,6 +85,14 @@
 				2C72F3D522C5195A00E79233 /* ZFCustomSlider.h */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		2C72F3DA22C51D9900E79233 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				2C72F3DB22C51DA500E79233 /* 手机QQ视频_20190627233933.mp4 */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				2C0313DA22773C410002BCE8 /* LaunchScreen.storyboard in Resources */,
 				2C0313D722773C410002BCE8 /* Assets.xcassets in Resources */,
 				2C0313D522773C3D0002BCE8 /* Main.storyboard in Resources */,
+				2C72F3DC22C51DA500E79233 /* 手机QQ视频_20190627233933.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
